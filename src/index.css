@@ -1,0 +1,135 @@
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #23252c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 97px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 317px;
+  height: 780px;
+}
+
+.main {
+  background-color: #1a1b21;
+  display: flex;
+  flex-direction: column;
+  height: 92%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info--profile-pic > img {
+  object-fit: cover;
+  width: 100%;
+  height: 317px;
+  border-radius: 10px 10px 0 0;
+}
+
+.info--basic-info > .name {
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.info--basic-info > .title {
+  color: #f3bf99;
+  font-size: 12.8px;
+  margin-top: 6px;
+  font-weight: 400;
+}
+
+.info--basic-info > .website {
+  color: #f5f5f5;
+  font-size: 10.24px;
+  margin-top: 8.81px;
+  font-weight: 400;
+}
+
+.info--action {
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  margin-top: 15px;
+}
+
+.info--action > button {
+  width: 115px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  font-size: 14px;
+  gap: 9.6px;
+  border-radius: 6px;
+}
+
+.info--action > .linkedin-btn {
+  background-color: #5093e2;
+  color: white;
+  border: none;
+}
+
+.info--action > .email-btn {
+  background-color: white;
+  color: #1e1f26;
+  border: 1px solid #d1d5db;
+}
+
+.about {
+  margin-top: 33px;
+}
+
+.interests {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.about,
+.interests {
+  padding: 0 35px;
+}
+
+.section-title {
+  color: #f5f5f5;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.section-content {
+  color: #dcdcdc;
+  font-size: 10.24px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #161619;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border-radius: 0px 0px 10px 10px;
+  flex-grow: 1;
+}
+
+.footer-icons {
+  width: 25px;
+  height: 25px;
+}
