@@ -22,3 +22,10 @@ This is a solution to the solo project 1 - Digital Business Card - of the [React
 - CSS
 - HTML
 - CSS - Flexbox
+
+## Skill learnt
+
+- JSX syntax
+- React components
+- Implement designs from Figma
+- Deploy to Netlify
